@@ -154,6 +154,18 @@ p{
     }
 }
 
+@keyframes canvas_glow
+{
+    from
+    {
+        box-shadow: 1px 1px 38px gold;
+    }
+    to
+    {
+        box-shadow: 1px 1px 38px rgba(104, 6, 134, 0.877);
+    }
+}
+
 .heading
 {
   font-size: 23px;
@@ -212,6 +224,10 @@ body
   {
     border:5px solid white;
     border-radius:20px;
+    animation-name: canvas_glow;
+    animation-duration: 4s;
+    margin-top:50px;
+    animation-iteration-count: infinite;
   }
 
   
