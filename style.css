@@ -1,0 +1,217 @@
+
+.neonText
+{
+    text-align: center;
+    margin-top: 20px;
+    color:	#ffff;
+    text-shadow:
+    0 0 7px #418cd3,
+    0 0 10px #418cd3,
+    0 0 21px #418cd3,
+    0 0 42px #0c3cd6,
+    0 0 82px #0c3cd6,
+    0 0 92px #0c3cd6,
+    0 0 102px #0c3cd6,
+    0 0 151px #0c3cd6;
+    
+}
+
+.neonText2
+{
+    color:	#ffff;
+    text-shadow:
+    0 0 7px #418cd3,
+    0 0 10px #418cd3,
+    0 0 21px #418cd3,
+    0 0 42px #0c3cd6,
+    0 0 82px #0c3cd6,
+    0 0 92px #0c3cd6,
+    0 0 102px #0c3cd6,
+    0 0 151px #0c3cd6;
+    
+}
+
+.neonGreen
+{
+    color:	#ffff;
+    text-shadow:
+    0 0 7px #43df43,
+    0 0 10px #43df43,
+    0 0 21px #43df43,
+    0 0 42px #00630d,
+    0 0 82px #00630d,
+    0 0 92px #00630d,
+    0 0 102px #00630d,
+    0 0 151px #00630d;
+    
+}
+
+
+h3{
+   
+    
+   
+    animation:glow 0.50s ease-in-out infinite alternate-reverse;
+}
+
+h4{
+   
+    
+   
+    animation:glow3 0.50s ease-in-out infinite alternate-reverse;
+}
+
+p{
+   
+    
+   
+    animation:glow2 0.50s ease-in-out infinite alternate-reverse;
+}
+
+
+
+@keyframes glow 
+{
+    100%
+    {
+        text-shadow:
+        0 0 4px #0273f5,
+        0 0 11px #0273f5,
+        0 0 19px #0273f5,
+        0 0 40px #0273f5,
+        0 0 80px #0d23eb,
+        0 0 90px #0d23eb,
+        0 0 100px #0d23eb,
+        0 0 160px #0d23eb;
+    }
+    0%
+    {
+        text-shadow:
+        0 0 4px #e62a2a,
+        0 0 10px #e62a2a,
+        0 0 18px #e62a2a,
+        0 0 38px #eb0d0d,
+        0 0 73px #eb0d0d,
+        0 0 80px #eb0d0d,
+        0 0 94px #eb0d0d,
+        0 0 150px #eb0d0d;
+    }
+}
+
+@keyframes glow2
+{
+    100%
+    {
+        text-shadow:
+        0 0 4px #43df43,
+        0 0 11px #43df43,
+        0 0 19px #43df43,
+        0 0 40px #00630d,
+        0 0 80px #00630d,
+        0 0 90px #00630d,
+        0 0 100px #00630d,
+        0 0 150px #00630d;
+    }
+    0%
+    {
+        text-shadow:
+        0 0 4px #418cd3,
+        0 0 10px #418cd3,
+        0 0 18px #a2e603,
+        0 0 38px #acf502,
+        0 0 73px #f30909,
+        0 0 80px #f50303,
+        0 0 94px #00630d,
+        0 0 140px #00630d;
+    }
+}
+
+@keyframes glow3
+{
+    100%
+    {
+        text-shadow:
+        0 0 8px #43df43,
+        0 0 22px #43df43,
+        0 0 38px #43df43,
+        0 0 80px #43df43,
+        0 0 160px #00630d,
+        0 0 180px #00630d,
+        0 0 200px #00630d,
+        0 0 300px #00630d;
+    }
+    0%
+    {
+        text-shadow:
+        0 0 8px #43df43,
+        0 0 20px #43df43,
+        0 0 36px #43df43,
+        0 0 76px #00630d,
+        0 0 146px #00630d,
+        0 0 160px #00630d,
+        0 0 188px #00630d,
+        0 0 280px #00630d;
+    }
+}
+
+.heading
+{
+  font-size: 23px;
+  width: 100%;
+  margin: 0px;
+}
+.note
+{
+  font-size: 15px;
+  
+}
+body
+{
+  background-size: cover;	
+  color:	#ffff;
+}
+  .div_speed
+  {
+  	float: left;
+  }
+  .div_speed_img
+  {
+  	width: 200px; 
+  	border-radius: 100px;
+  }
+  #speed
+  {
+  	font-size: 23px;
+  	margin: 15px;
+  }
+  .div_volume
+  {
+  	float: right;	
+  }
+  .div_volume_img
+  {
+  	width: 200px; 
+  	border-radius: 100px;
+  }
+  #volume
+  {
+  	font-size: 23px;
+  	margin: 15px;
+  }
+   .play_button
+  {
+  	width: 150px;
+  	font-size: 25px;
+  }
+  .stop_button
+  {
+  	width: 150px;
+  	font-size: 25px;
+  }
+    canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+  }
+
+  
